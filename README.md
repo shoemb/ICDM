@@ -54,7 +54,7 @@ The input file consists of a series of variable definions of the form "varName =
 
 **XImagesOfPointCharges** and **YImagesOfPointCharges** describe the number of periodic replicates of each image charge to include. The periodic replicates will form an array of extent [-XImagesOfPointCharges * L_x,+XImagesOfPointCharges * L_x] in the x-direction and  [-YImagesOfPointCharges * L_y,+YImagesOfPointCharges * L_Y] in the y-direction.
 
-**targetXBinSize** and **targetYBinSize** set the bin size for numerical evaluation of the potential of a finite charged slab. If necessary, the actual bin size will be adjusted to be slightly smaller than the target values so that an integer number of bins spans the simulation box.
+**targetXBinSize** and **targetYBinSize** set the bin size for numerical integration of a charged finite slab to determine the potential it generates. If necessary, the actual bin size will be adjusted to be slightly smaller than the target values so that an integer number of bins spans the simulation box.
 
 
 The output file contains four rows. The first two rows give the order parameter values (in Angstrom) and free energy values (in kT) prior to the correction being applied. The third and fourth rows give the order parameter values (in Angstrom) and corrected free energy values (in kT) after applying the method.
