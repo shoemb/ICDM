@@ -38,9 +38,9 @@ The input file consists of a series of variable definions of the form "varName =
 
 **L_y** is the length of the simulation box (in Angstrom) in the y-direction.
 
-**id_min** is the line number (numbering begins at 1) in the file provided by **free-energy-profile** which corresponds to the order paramter values where the correction is first applied.
+**id_min** is the line number (numbering begins at 1) in the file provided by **free-energy-profile** which corresponds to the order parameter value where the correction is first applied.
 
-**id_max** is the line number (numbering begins at 1) in the file provided by **free-energy-profile** which corresponds to the order paramter values up to which the correction is applied. This can be set to the maximum line number but must at least extend beyond the transition state.
+**id_max** is the line number (numbering begins at 1) in the file provided by **free-energy-profile** which corresponds to the order parameter value up to which the correction is applied. This can be set to the maximum line number but must at least extend beyond the transition state.
 
 **z_piston** is the position (in Angstrom) of the piston on the feed side. 
 
