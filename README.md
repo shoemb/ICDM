@@ -18,7 +18,7 @@ The input file consists of a series of variable definions of the form "varName =
 
 **startingZ** and **feedStartingZ** are the positions (in Angstrom) where the correction is first applied and where the transiting ion has fully left the feed such that it produces its own induced charge in the feed. For passage of the initial ion these will typically be the same value.
 
-**free-energy-profile** is the path to a txt file which contains the uncorrected free energy profile. This file contains two columns separated by a comma where the first column is the position of the transiting ion (in Angstrom) and the second column is the free energy (in units of kT). If two ore more independent free energy profiles are available through different trajectories/configurations, the keyword can be used multiple times. In this case, error bars in the free energy profile can be determined.
+**free-energy-profile** is the path to a txt file which contains the uncorrected free energy profile. This file contains two columns separated by a comma where the first column is the position of the transiting ion (in Angstrom) and the second column is the free energy (in units of kT). If two or more independent free energy profiles are available through different trajectories/configurations, the keyword can be used multiple times. In this case, error bars in the free energy profile can be determined.
 
 **OPValues** gives values of the order parameter (in Angstrom) at which empirical measurements of the charge density of non-transiting ions outside the feed are available. If the transiting ion is the only ion outside the feed compartment, this line can be omitted from the input file.
 
